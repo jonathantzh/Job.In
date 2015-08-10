@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Registration form Template | PrepBootstrap</title>
+    <title>Join Job.In</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -11,12 +11,12 @@
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color: #003e58">
 
 <div class="container">
 
 <div class="page-header">
-    <h1>Registration form <small>A Bootstrap template showing a registration form with standard fields</small></h1>
+    <h1 style="font-family:'Rockwell', Times, serif; color: #fac300; text-align: center;">Create your Profile on Job.In Now!</h1>
 </div>
 
 <!-- Registration form - START -->
@@ -24,39 +24,141 @@
     <div class="row">
         <form role="form">
             <div class="col-lg-6">
-                <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
+                <div style="font-family:'Rockwell', Times, serif; color: #fac300"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
+                <br>
                 <div class="form-group">
-                    <label for="InputName">Enter Name</label>
+                    <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="InputName">First Name</label>
                     <div class="input-group">
                         <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
+                
                 <div class="form-group">
-                    <label for="InputEmail">Enter Email</label>
+                    <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="InputName">Last Name</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                                
+                <div class="form-group">
+                    <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="InputEmail">Enter Email</label>
                     <div class="input-group">
                         <input type="email" class="form-control" id="InputEmailFirst" name="InputEmail" placeholder="Enter Email" required>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="InputEmail">Confirm Email</label>
+                    <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="InputEmail">Confirm Email</label>
                     <div class="input-group">
                         <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Confirm Email" required>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
                 <div class="form-group">
+                  <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>                
+                <div class="form-group" style="font-weight: bold;font-family:'Rockwell', Times, serif; color: #fac300;">Your Profile Picture: <input type="file" name="pic" id="pic"><br>
+                </div>
+                
+                <div class="form-group">
+                    <label style="font-family:'Rockwell', Times, serif; color: #fac300;">Total Experience</label>
+                    <div class = "row">
+                        <div class = "col-lg-6">
+                            <select class="form-control">
+                                <option>Years</option>
+                                <option>0</option>                                
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10 or more</option>                                   
+                            </select>
+                        </div>
+                        <div class = "col-lg-6">
+                            <select class="form-control">
+                                <option>Months</option>
+                                <option>0</option>                                
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>                                
+                            </select>
+                        </div>                        
+                    </div>
+
+                </div>
+                
+                <div class="form-group">
+                    <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="InputName">Key Skills</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>                
+                
+                <div class="form-group">
+                    <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="InputName">Industry</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="InputName">Field</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                
+                <div class="form-group" style="font-weight: bold; font-family:'Rockwell', Times, serif; color: #fac300;">Have a resume? Upload it here:<br>
+                <input type="file" name="pic" id="pic">
+                <span style="font-size: 10px; font-style: italic; font-weight: lighter; font-family:'Rockwell', Times, serif; color: #fac300;">Upload PDF file no larger than 200kb</span>
+                </div>                
+                
+<!--                <div class="form-group">
                     <label for="InputMessage">Enter Message</label>
                     <div class="input-group">
                         <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
-                </div>
-                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                </div>-->
+                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-success pull-right">
             </div>
         </form>
-        <div class="col-lg-5 col-md-push-1">
+            
+            <div class="col-lg-5">
+                <p style="font-family:'Rockwell', Times, serif; color: #fac300; font-size:36px; padding-top: 100px">Or, Log In here:</p>
+                <div class="form-group">
+                  <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label style="font-family:'Rockwell', Times, serif; color: #fac300;" for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>                
+                
+                <input type="submit" name="submit" id="submit" value="Log.In" class="btn btn-success pull-right">
+            </div>
+            
+<!--        <div class="col-lg-5 col-md-push-1">
             <div class="col-md-12">
                 <div class="alert alert-success">
                     <strong><span class="glyphicon glyphicon-ok"></span> Success! Message sent.</strong>
@@ -65,8 +167,9 @@
                     <span class="glyphicon glyphicon-remove"></span><strong> Error! Please check all page inputs.</strong>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
+<br>
 </div>
 <!-- Registration form - END -->
 
