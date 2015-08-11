@@ -9,14 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Heroic Features - Start Bootstrap Template</title>
+    <title>Job.In - Your search is just beginning</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/heroic-features.css" rel="stylesheet">
-
+    <!-- Custom CSS -->
+    <link href="css/2-col-portfolio.css" rel="stylesheet">
+        
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,32 +28,35 @@
 
 </head>
 
-<body>
+<body style="background-repeat: no-repeat; background-color: #003e58">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"style="background-color:#003e58">
+        <div class="container" >
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <div class="navbar-header" style="background-color:#003e58">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        style="background-color:#fac300;">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
             </div>
+          
+
+          </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:#003e58;">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" style="color: #fac300; font-family:'Rockwell', Times, serif;">About Job.In</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#" style="color: #fac300; font-family:'Rockwell', Times, serif;">Analytics and Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#" style="color: #fac300; font-family:'Rockwell', Times, serif;">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -62,21 +67,38 @@
 
     <!-- Page Content -->
     <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <p style="color: #fac300; font-family:'Rockwell', Times, serif; text-align: center; font-size:60px;"> Search Job.In</p>
+            </div>
+        </div>
 
-        <!-- Jumbotron Header -->
-        <header class="jumbotron hero-spacer">
-            <h1>A Warm Welcome!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-            <p><a class="btn btn-primary btn-large">Call to action!</a>
-            </p>
-        </header>
+    <div class="input-group" style="padding-top: 8.5px; padding-right:10px;">
+      <input type="text" class="form-control" aria-label="...">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family:'Rockwell', Times, serif">Filter <span class="caret"></span></button>
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li style="font-family:'Rockwell', Times, serif"><a href="#">Ratings</a></li>
+          <li style="font-family:'Rockwell', Times, serif"><a href="#">Average Salary</a></li>
+          <li style="font-family:'Rockwell', Times, serif"><a href="#">Views</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#" style="font-family:'Rockwell', Times, serif">See Full List</a></li>
+        </ul>
 
-        <hr>
-
+      </div><!-- /btn-group -->
+      
+        <span class="input-group-btn">
+                <button class="btn btn-default" type="button" style="font-family:'Rockwell', Times, serif">Go!</button>
+        </span>
+    </div><!-- /input-group -->
+        
+        <hr>        
+        
         <!-- Title -->
         <div class="row">
             <div class="col-lg-12">
-                <h3>Latest Features</h3>
+                <h3 style="color: #fac300; font-family:'Rockwell', Times, serif;">Filter by: #views, #salary, #industry:technology</h3>
             </div>
         </div>
         <!-- /.row -->
@@ -88,7 +110,7 @@
                 <div class="thumbnail">
                     <img src="http://placehold.it/800x500" alt="">
                     <div class="caption">
-                        <h3>Feature Label</h3>
+                        <h3>Google</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>
                             <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
@@ -101,7 +123,7 @@
                 <div class="thumbnail">
                     <img src="http://placehold.it/800x500" alt="">
                     <div class="caption">
-                        <h3>Feature Label</h3>
+                        <h3>Facebook</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>
                             <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
@@ -114,7 +136,7 @@
                 <div class="thumbnail">
                     <img src="http://placehold.it/800x500" alt="">
                     <div class="caption">
-                        <h3>Feature Label</h3>
+                        <h3>Microsoft</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>
                             <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
@@ -127,7 +149,7 @@
                 <div class="thumbnail">
                     <img src="http://placehold.it/800x500" alt="">
                     <div class="caption">
-                        <h3>Feature Label</h3>
+                        <h3>3M</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>
                             <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
@@ -138,14 +160,99 @@
 
         </div>
         <!-- /.row -->
+        
+        <div class="row text-center">
 
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Google</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Facebook</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>Microsoft</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="http://placehold.it/800x500" alt="">
+                    <div class="caption">
+                        <h3>3M</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>        
+
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>        
+        
+        
         <hr>
 
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p style="color: #fac300; font-family:'Rockwell', Times, serif;">Copyright &copy; Job.In 2015</p>
                 </div>
             </div>
         </footer>
