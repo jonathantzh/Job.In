@@ -29,79 +29,60 @@
 
 </head>
 
-<body style="background-repeat: no-repeat; background-color: #003e58">
+<body style="background-color: #003e58;">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"style="background-color:#003e58">
-        <div class="container" >
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header" style="background-color:#003e58">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                        style="background-color:#fac300;">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" style="color:#fac300; font-family:'Rockwell', Times, serif;
-                font-size: 32px;" href="#">Job.In</a>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-    <div class="input-group" style="padding-top: 8.5px; padding-right:10px;">
-      <input type="text" class="form-control" aria-label="...">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family:'Rockwell', Times, serif">Filter <span class="caret"></span></button>
-        <ul class="dropdown-menu dropdown-menu-right">
-          <li style="font-family:'Rockwell', Times, serif"><a href="#">Ratings</a></li>
-          <li style="font-family:'Rockwell', Times, serif"><a href="#">Average Salary</a></li>
-          <li style="font-family:'Rockwell', Times, serif"><a href="#">Views</a></li>
-          <li role="separator" class="divider"></li>
-          <li><a href="#" style="font-family:'Rockwell', Times, serif">See Full List</a></li>
-        </ul>
-      </div><!-- /btn-group -->
-      
-        <span class="input-group-btn">
-            <button class="btn btn-default" type="button" style="font-family:'Rockwell', Times, serif">Go!</button>
-        </span>
-    </div><!-- /input-group -->
-
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" style="margin-top: -76px;">
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
             </div>
-          
-
-          </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:#003e58;">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#" style="color: #fac300; font-family:'Rockwell', Times, serif;">About Job.In</a>
-                    </li>
-                    <li>
-                        <a href="#" style="color: #fac300; font-family:'Rockwell', Times, serif;">Analytics and Services</a>
-                    </li>
-                    <li>
-                        <a href="#" style="color: #fac300; font-family:'Rockwell', Times, serif;">Contact Us</a>
-                    </li>
-                </ul>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
         </div>
-        <!-- /.container -->
-    </nav>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+    
     <!-- Page Content -->
     <div class="container">
 
+        <!-- Marketing Icons Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Blog Home Two
-                    <small>Subheading</small>
-                </h1>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Blog Home Two</li>
-                </ol>
+                <p class="page-header" style="text-align: center; color: #fac300; font-family:'Rockwell', Times, serif; font-size: 60px;">
+                    Google
+                </p>
             </div>
-        </div>
-        <!-- /.row -->
+    <!-- Page Content -->
+    <div class="container" style="color: #fac300; font-family:'Rockwell', Times, serif;">
 
         <!-- Blog Post Row -->
         <div class="row">
@@ -117,9 +98,9 @@
             </div>
             <div class="col-md-6">
                 <h3>
-                    <a href="blog-post.html">Blog Post Title</a>
+                    <a href="blog-post.html" style="text-align: center; color: #fac300; font-family:'Rockwell', Times, serif;">Mark wins Hackathon, Again!</a>
                 </h3>
-                <p>by <a href="#">Start Bootstrap</a>
+                <p>by <a href="#" style="text-align: center; color: #fac300; font-family:'Rockwell', Times, serif;">Mark Zuckerburg</a>
                 </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
@@ -142,9 +123,9 @@
                 </a>
             </div>
             <div class="col-md-6">
-                <h3><a href="blog-post.html">Blog Post Title</a>
+                <h3><a href="blog-post.html" style="text-align: center; color: #fac300; font-family:'Rockwell', Times, serif;">Larry Page Wins Hackathon, Nearly!</a>
                 </h3>
-                <p>by <a href="#">Start Bootstrap</a>
+                <p>by <a href="#" style="text-align: center; color: #fac300; font-family:'Rockwell', Times, serif;">Larry Page</a>
                 </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
@@ -167,9 +148,9 @@
                 </a>
             </div>
             <div class="col-md-6">
-                <h3><a href="blog-post.html">Blog Post Title</a>
+                <h3><a href="blog-post.html" style="text-align: center; color: #fac300; font-family:'Rockwell', Times, serif;">Coffee Spill at Pantry!</a>
                 </h3>
-                <p>by <a href="#">Start Bootstrap</a>
+                <p>by <a href="#" style="text-align: center; color: #fac300; font-family:'Rockwell', Times, serif;">Coffee Mixer</a>
                 </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <a class="btn btn-primary" href="blog-post.html">Read More <i class="fa fa-angle-right"></i></a>
@@ -196,7 +177,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Job.In 2015</p>
                 </div>
             </div>
         </footer>
